@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, BroeserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 import App1 from './components/App1';
 import App2 from './components/App2';
