@@ -8,12 +8,14 @@ import App4 from './components/App4';
 import App5 from './components/App5';
 import App6 from './components/App6';
 
+import Board from './components/Board';
+
 class App extends Component {
     render() {
         return (
             <Router>
                 <div>
-                    <Route exact path="/" component={App1}/>
+                    <Route exact path="/" component={Board}/>
                     <Route exact path="/App1" component={App1}/>
                     <Route exact path="/App2" component={App2}/>
                     <Route exact path="/App3" component={App3}/>
